@@ -54,7 +54,7 @@ section {
   color: var(--main-color);
   border-bottom: 0.1rem solid var(--main-color);
   padding-bottom: 0.5rem;
-  font-size: 2rem;  
+  font-size: 2rem;
 }
 .icons img {
   margin: 1rem; /* distanciar um icon do outro*/
@@ -140,7 +140,10 @@ section {
 
 .box-container {
   display: grid; /*bom para organizar as caixas, pode se aumentar ou diminuir qtde*/
-  grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr)); /*min 30rem e max 1fr(uma tela)*/
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(30rem, 1fr)
+  ); /*min 30rem e max 1fr(uma tela)*/
   gap: 1.5rem;
 }
 
@@ -191,7 +194,7 @@ section {
   line-height: 1.8;
   font-weight: lighter;
 }
-.review .box-container .box h3{
+.review .box-container .box h3 {
   color: var(--color);
   font-size: 2rem;
   margin: 1rem 0;
@@ -213,16 +216,41 @@ section {
   text-align: center;
 }
 
-.footer .share{
+.footer .share {
   padding: 1rem 0;
 }
-.footer .share img{
+.footer .share img {
   margin: 0.3rem;
   cursor: pointer;
-  border-radius: 50%; 
+  border-radius: 50%;
   padding: 1rem;
 }
-.footer .share img:hover{
-  background-color:  var(--main-color);
+.footer .share img:hover {
+  background-color: var(--main-color);
+}
+@media (max-width: 878px) {
+  .header .navbar {
+    display: none;
+  }
+  
 
+  .header section a img{
+width: 7rem;
+
+  }
+  
+
+  .header section{
+    padding-top: 0.5rem;
+    padding-bottom: 0;
+
+
+  }
+  .icons img {
+    padding-right: 50rem;
+    display: flex;
+    width: 2rem;
+    margin:0;
+    
+  }
 }
