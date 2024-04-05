@@ -14,33 +14,42 @@
   padding: 0;
   border: none;
   outline: none;
-  text-decoration: none; /* sublinhado */
-  text-transform: capitalize; /* Primeira letra maiúcula*/
-  transition: 0.2s linear; /*não esquecer do s*/
+  text-decoration: none;
+  /* sublinhado */
+  text-transform: capitalize;
+  /* Primeira letra maiúcula*/
+  transition: 0.2s linear;
+  /*não esquecer do s*/
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
+
 body {
   background-color: var(--bg);
 }
 
 section {
   padding: 3rem 2rem;
-  margin: 0 auto; /* auto centraliza*/
+  margin: 0 auto;
+  /* auto centraliza*/
   max-width: 1200px;
 }
+
 .header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 99; /* para ficar na frente de tudo*/
+  z-index: 99;
+  /* para ficar na frente de tudo*/
   border-bottom: var(--border);
   background-color: var(--bg);
 }
+
 .header section {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* dar espaço entre objetos */
+  justify-content: space-between;
+  /* dar espaço entre objetos */
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
@@ -50,16 +59,20 @@ section {
   font-size: 1.8rem;
   color: var(--color);
 }
+
 .navbar a:hover {
   color: var(--main-color);
   border-bottom: 0.1rem solid var(--main-color);
   padding-bottom: 0.5rem;
   font-size: 2rem;
 }
+
 .icons img {
-  margin: 1rem; /* distanciar um icon do outro*/
+  margin: 1rem;
+  /* distanciar um icon do outro*/
   cursor: pointer;
 }
+
 .icons img:hover {
   width: 40px;
   height: 40px;
@@ -72,8 +85,10 @@ section {
   font-size: 1.7rem;
   cursor: pointer;
   margin-top: 1rem;
-  display: inline-block; /*com isso ele alterou a distância*/
+  display: inline-block;
+  /*com isso ele alterou a distância*/
 }
+
 .btn:hover {
   letter-spacing: 0.1rem;
 }
@@ -84,6 +99,7 @@ section {
   background-position: center;
   background-size: cover;
 }
+
 .home-container section {
   display: flex;
   align-items: center;
@@ -93,17 +109,21 @@ section {
 .content {
   max-width: 60rem;
 }
+
 .content h3 {
   color: var(--color);
   font-size: 6rem;
 }
+
 .content p {
   color: var(--color);
   font-size: 2rem;
   font-weight: 100;
-  line-height: 1.8; /*não precisa rem*/
+  line-height: 1.8;
+  /*não precisa rem*/
   padding: 1rem 0;
 }
+
 .title {
   font-size: 4rem;
   color: var(--main-color);
@@ -111,13 +131,16 @@ section {
   text-transform: uppercase;
   margin-bottom: 4rem;
 }
+
 .title span {
   color: var(--color);
   text-transform: uppercase;
 }
+
 .about .row {
   /*espaço é necessário */
-  display: flex; /* ajustou o conteúdo ao lado da img*/
+  display: flex;
+  /* ajustou o conteúdo ao lado da img*/
   align-items: center;
   background-color: var(--black);
   gap: 1.5rem;
@@ -131,6 +154,7 @@ section {
   font-size: 3rem;
   color: var(--color);
 }
+
 .about .row .content p {
   font-size: 1.6rem;
   color: #fff;
@@ -139,11 +163,11 @@ section {
 }
 
 .box-container {
-  display: grid; /*bom para organizar as caixas, pode se aumentar ou diminuir qtde*/
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(30rem, 1fr)
-  ); /*min 30rem e max 1fr(uma tela)*/
+  display: grid;
+  /*bom para organizar as caixas, pode se aumentar ou diminuir qtde*/
+  grid-template-columns: repeat(auto-fit,
+      minmax(30rem, 1fr));
+  /*min 30rem e max 1fr(uma tela)*/
   gap: 1.5rem;
 }
 
@@ -169,24 +193,31 @@ section {
   font-size: 2.5rem;
   padding: 0.5rem 0;
 }
+
 .menu .box-container .box .price span {
   font-size: 1.5rem;
-  text-decoration: line-through; /*linha cortada no preço*/
-  font-weight: lighter; /* a mais fina possível*/
+  text-decoration: line-through;
+  /*linha cortada no preço*/
+  font-weight: lighter;
+  /* a mais fina possível*/
 }
 
 .menu .box-container .box:hover {
   background: var(--color);
 }
-.menu .box-container .box:hover > * {
+
+.menu .box-container .box:hover>* {
   /*importante colocar no final, pois não pega o span*/
-  color: var(--black); /* *{ aplica em todos elementos da div */
+  color: var(--black);
+  /* *{ aplica em todos elementos da div */
 }
+
 .review .box-container .box {
   border: var(--border);
   text-align: center;
   padding: 3rem 2rem;
 }
+
 .review .box-container .box p {
   font-size: 1.5rem;
   color: var(--color);
@@ -194,6 +225,7 @@ section {
   line-height: 1.8;
   font-weight: lighter;
 }
+
 .review .box-container .box h3 {
   color: var(--color);
   font-size: 2rem;
@@ -203,13 +235,15 @@ section {
 .review .box-container .box .user {
   height: 7rem;
   width: 7rem;
-  border-radius: 50%; /*img fica redonda*/
+  border-radius: 50%;
+  /*img fica redonda*/
 }
 
 .address {
   display: flex;
   align-items: center;
-  flex-direction: column; /*title up*/
+  flex-direction: column;
+  /*title up*/
 }
 
 .footer {
@@ -219,38 +253,69 @@ section {
 .footer .share {
   padding: 1rem 0;
 }
+
 .footer .share img {
   margin: 0.3rem;
   cursor: pointer;
   border-radius: 50%;
   padding: 1rem;
 }
+
 .footer .share img:hover {
   background-color: var(--main-color);
 }
+
 @media (max-width: 878px) {
-  .header .navbar {
+
+  :root {
+    font-size: 5px;
+  }
+
+  section {
+    padding: 1rem 1rem;
+    margin: auto;
+    max-width: 250px;
+
+
+  }
+
+  .header section a img {
     display: none;
   }
-  
 
-  .header section a img{
-width: 7rem;
+  .header section {
 
-  }
-  
-
-  .header section{
-    padding-top: 0.5rem;
-    padding-bottom: 0;
-
+    margin-left: 0;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    justify-content: space-between;
+    max-width: 90vw;
+    
 
   }
-  .icons img {
-    padding-right: 50rem;
-    display: flex;
-    width: 2rem;
-    margin:0;
+
+  .icons img{
+    margin: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    
     
   }
+
+  .navbar a{
+    justify-content: space-between;
+    display:inline;
+    right:100rem;
+  }
+
+ 
+
+
+
 }
+
+
+
+
+
+
