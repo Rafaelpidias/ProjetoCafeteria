@@ -274,7 +274,7 @@ section {
   section {
     padding: 1rem 1rem;
     margin: auto;
-    max-width: 250px;
+    max-width: 900px;
 
 
   }
@@ -308,11 +308,33 @@ section {
     right:100rem;
   }
 
+ }
+ .home-container {
+  
+  background-position:right;
+  background-size:center;
+  
+
+
+  
+ 
+  
+ }
+ 
+
+ 
+
+
  
 
 
 
-}
+
+
+
+ 
+ 
+ 
 
 
 
