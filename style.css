@@ -165,8 +165,7 @@ section {
 .box-container {
   display: grid;
   /*bom para organizar as caixas, pode se aumentar ou diminuir qtde*/
-  grid-template-columns: repeat(auto-fit,
-      minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   /*min 30rem e max 1fr(uma tela)*/
   gap: 1.5rem;
 }
@@ -206,7 +205,7 @@ section {
   background: var(--color);
 }
 
-.menu .box-container .box:hover>* {
+.menu .box-container .box:hover > * {
   /*importante colocar no final, pois não pega o span*/
   color: var(--black);
   /* *{ aplica em todos elementos da div */
@@ -266,7 +265,6 @@ section {
 }
 
 @media (max-width: 878px) {
-
   :root {
     font-size: 5px;
   }
@@ -275,8 +273,6 @@ section {
     padding: 1rem 1rem;
     margin: auto;
     max-width: 900px;
-
-
   }
 
   .header section a img {
@@ -284,60 +280,68 @@ section {
   }
 
   .header section {
-
     margin-left: 0;
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
     justify-content: space-between;
     max-width: 90vw;
-    
-
   }
 
-  .icons img{
+  .icons img {
     margin: 1rem;
     width: 2.5rem;
     height: 2.5rem;
-    
-    
   }
 
-  .navbar a{
+  .navbar a {
     justify-content: space-between;
-    display:inline;
-    right:100rem;
+    display: inline-block;
   }
+}
+.home-container {
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
- }
- .home-container {
-  
-  background-position:right;
-  background-size:center;
-  
+.home-container section {
+  min-height: 30vh;
+  margin-bottom: 0;
+}
 
+.content h3 {
+  font-size: 3rem;
+}
 
-  
- 
-  
- }
- 
+.content p {
+  line-height: 1.2;
+  width: 90vw;
+  font-weight: lighter;
+  padding: 3rem 0;
+}
 
- 
+.title {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+.about .row {
+  flex-direction: column;
+  align-items: initial;
+  font-size: lighter;
+  margin-bottom: 0;
+}
 
+.about .row img {
+  width: 45vh;
+}
+.box-container .box img {
+  height: 5rem;
+}
 
- 
-
-
-
-
-
-
- 
- 
- 
-
-
-
-
-
-
+iframe {
+  width: 50%;
+  position: relative;
+  padding-bottom: 50%;
+  height: 50%;
+}
