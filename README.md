@@ -5,8 +5,17 @@ Um projeto simples mas que mostra o resultado de um site charmoso e com grandes 
 <br>
 <p>Tecnologias usadas:</p>
 <br>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+:computer:
+<img width="65%" src="https://github.com/Rafaelpidias/ProjetoCafeteria/blob/master/img/print1cafe.PNG?raw=true">
+<img width="65%" src="https://github.com/Rafaelpidias/ProjetoCafeteria/blob/master/img/Print2cafe.PNG?raw=true">
+<img width="65%" src="https://github.com/Rafaelpidias/ProjetoCafeteria/blob/master/img/Print3cafe.PNG?raw=true">
+<img width="65%" src="https://github.com/Rafaelpidias/ProjetoCafeteria/blob/master/img/Print4cafe.PNG?raw=true">
+<img width="65%" src="https://github.com/Rafaelpidias/ProjetoCafeteria/blob/master/img/Print5cafe.PNG?raw=true">
 <br>
-:computer:<img width="65%" src="https://raw.githubusercontent.com/Rafaelpidias/Tela-de-Login/5f35c10abec90f3da5ca4614b2c918d603a83736/Loginscreen_DSKT.PNG">
-:iphone:<img src="https://raw.githubusercontent.com/Rafaelpidias/Tela-de-Login/5f35c10abec90f3da5ca4614b2c918d603a83736/Loginscreen_Responsivo.PNG">
+<br>
+:iphone:
+<br>
+<img align="left" src="https://github.com/Rafaelpidias/ProjetoCafeteria/blob/master/img/Print1Responsivo.PNG?raw=true">
+<img align="center" src="https://github.com/Rafaelpidias/ProjetoCafeteria/blob/master/img/Print2Responsivo.PNG?raw=true">
+<img align="left" src="https://github.com/Rafaelpidias/ProjetoCafeteria/blob/master/img/Print3responsivo.PNG?raw=true">
+<img align="center" src="https://github.com/Rafaelpidias/ProjetoCafeteria/blob/master/img/Print4Responsivo.PNG?raw=true">
