@@ -16,6 +16,7 @@ Um projeto simples mas que mostra o resultado de um site charmoso e com grandes 
 :iphone:
 <br>
 <img align="left" src="https://github.com/Rafaelpidias/ProjetoCafeteria/blob/master/img/Print1Responsivo.PNG?raw=true">
-<img align="center" src="https://github.com/Rafaelpidias/ProjetoCafeteria/blob/master/img/Print2Responsivo.PNG?raw=true">
+<img align="center" src="https://github.com/Rafaelpidias/ProjetoCafeteria/blob/master/img/PrintResp2.PNG?raw=true">
+<br>
 <img align="left" src="https://github.com/Rafaelpidias/ProjetoCafeteria/blob/master/img/Print3responsivo.PNG?raw=true">
 <img align="center" src="https://github.com/Rafaelpidias/ProjetoCafeteria/blob/master/img/Print4Responsivo.PNG?raw=true">
