@@ -4,6 +4,10 @@
 Um projeto simples mas que mostra o resultado de um site charmoso e com grandes desafios no html.Com a grande ajuda do <a href="https://www.youtube.com/results?search_query=devclub+cafeteria">Rodolfo Mori</a>.</p>
 <br>
 <p>Tecnologias usadas:</p>
+ <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="logo-html"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="logo-css"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="logo-java"/>
+  
 <br>
 :computer:
 <img width="65%" src="https://github.com/Rafaelpidias/ProjetoCafeteria/blob/master/img/print1cafe.PNG?raw=true">
